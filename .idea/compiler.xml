@@ -7,15 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lab01-SpringSecurity" />
+        <module name="Lab01-SpringSecurity-advance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Lab01-SpringSecurity" target="1.8" />
+      <module name="Lab01-SpringSecurity (1)" target="1.8" />
+      <module name="Lab01-SpringSecurity-advance" target="1.8" />
+      <module name="SkyWalker-Labs" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Lab01-SpringSecurity" options="-parameters" />
+      <module name="Lab01-SpringSecurity (1)" options="-parameters" />
+      <module name="Lab01-SpringSecurity-advance" options="-parameters" />
     </option>
   </component>
 </project>

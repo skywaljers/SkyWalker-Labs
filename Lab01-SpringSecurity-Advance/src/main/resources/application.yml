@@ -1,0 +1,6 @@
+spring:
+  security:
+    user:
+      name: skywalker
+      password: 5201314yue
+      roles: ADMIN 
